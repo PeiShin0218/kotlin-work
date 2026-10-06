@@ -4,7 +4,7 @@
    containing the following line:
 
        product: jvm/app
-
+       
 2. Put your "Hello World" program in a file named `Main.kt`, in the
    `src` subdirectory.
 

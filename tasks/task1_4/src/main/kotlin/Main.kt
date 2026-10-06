@@ -1,4 +1,4 @@
-// Task 1.4
+ko// Task 1.4
 
 import com.github.ajalt.mordant.rendering.AnsiLevel
 import com.github.ajalt.mordant.rendering.TextColors.*
