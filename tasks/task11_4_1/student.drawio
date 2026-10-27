@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="mD6jUt2HAy18qJsXUxA7">
+    <mxGraphModel dx="1020" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tpxi0yhK4YLSrKQuGhZO-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Student" vertex="1">
+          <mxGeometry height="98" width="160" x="170" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="tpxi0yhK4YLSrKQuGhZO-2" parent="tpxi0yhK4YLSrKQuGhZO-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="id: Int&lt;div&gt;name: String&lt;/div&gt;&lt;div&gt;degreeProgramme: String&lt;/div&gt;&lt;div&gt;levelOfStudy: Int&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tpxi0yhK4YLSrKQuGhZO-3" parent="tpxi0yhK4YLSrKQuGhZO-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tpxi0yhK4YLSrKQuGhZO-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Module" vertex="1">
+          <mxGeometry height="130" width="210" x="520" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="tpxi0yhK4YLSrKQuGhZO-6" parent="tpxi0yhK4YLSrKQuGhZO-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="moduleCode: String&lt;div&gt;title: String&lt;/div&gt;&lt;div&gt;numCredits: Int&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="210" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tpxi0yhK4YLSrKQuGhZO-7" parent="tpxi0yhK4YLSrKQuGhZO-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="210" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tpxi0yhK4YLSrKQuGhZO-8" parent="tpxi0yhK4YLSrKQuGhZO-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="enrolStudent(student: Student)&lt;div&gt;generateTranscript(student: Student)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42" width="210" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="tpxi0yhK4YLSrKQuGhZO-10" edge="1" parent="1" source="tpxi0yhK4YLSrKQuGhZO-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.767;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="tpxi0yhK4YLSrKQuGhZO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tpxi0yhK4YLSrKQuGhZO-11" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fontColor=default;labelBackgroundColor=default;" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; text-align: start;&quot;&gt;enrols on&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="80" x="380" y="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

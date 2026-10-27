@@ -7,5 +7,6 @@ fun main(args: Array<String>) {
     println(numbers.slice(2..4))
     println(numbers.first())
     println(numbers.last())
-    numbers.add(1)
+    //numbers[0] = 1
+    //numbers.add(1)
 }
